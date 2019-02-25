@@ -1,3 +1,5 @@
+//Giovanni Joubert
+//u18009035
 public class BSTNode<T extends Comparable<? super T>> 
 {
 
@@ -19,8 +21,9 @@ public class BSTNode<T extends Comparable<? super T>>
 	public String toString() {
 		String out = element.toString();
 		out += " [L: "+ (left == null ? "null" : left.element) + "] ";
-		out += " [R: "+ (right == null ? "null" : right.element) + "] ";
+		out += " [R: "+ (right == null ? "null" : right.element) + "] "; 
 		return out;
 	}
+
 
 }
